@@ -11,5 +11,5 @@ git clone https://github.com/levimodesto/docker-openldap.git
  docker-compose up -d
 
 <h3>Acesso aos projetos</h3>
-- http://IP_PROJETO:8080
+- http://IP_PROJETO:8080<br>
 - http://IP_PROJETO:3989
