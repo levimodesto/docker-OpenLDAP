@@ -1,4 +1,4 @@
-# docker-ldap
+# docker-OpenLDAP
 Maneira rápida e fácil de subir um container docker
 
 
