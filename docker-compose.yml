@@ -2,10 +2,10 @@ version: '2'
 services:
  openldap:
    image: osixia/openldap:1.2.1
-   container_name: openldap-braskem
+   container_name: openldap
    environment:
      LDAP_LOG_LEVEL: "256"
-     LDAP_ORGANISATION: "Vertigo Tecnologia"
+     LDAP_ORGANISATION: "VTG"
      LDAP_DOMAIN: "vtg.com"
      LDAP_BASE_DN: ""
      LDAP_ADMIN_PASSWORD: "admin"
@@ -45,7 +45,7 @@ services:
    hostname: "vtg.com"
  phpldapadmin:
    image: osixia/phpldapadmin:latest
-   container_name: phpldapadmin-braskem
+   container_name: phpldapadmin
    environment:
      PHPLDAPADMIN_LDAP_HOSTS: "openldap"
      PHPLDAPADMIN_HTTPS: "false"
