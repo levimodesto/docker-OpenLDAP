@@ -4,12 +4,23 @@ Maneira rápida e fácil de subir um container docker
 
 <h1>Pull do projeto</h1>
 
+-- OpenLdap --
+
+// Primeiro iremos fazer o clone para uma pasta local
 git clone https://github.com/levimodesto/docker-openldap.git
 
+// Acessar a pasta docker_openLdap
 
-<h2>Start projeto docker</h2>
- docker-compose up -d
+cd docker_openLdap/
+
+// Execução do docker-compose do projeto
+docker-compose up -d
+
 
 <h3>Acesso aos projetos</h3>
-- http://IP_PROJETO:81<br>
-- http://IP_PROJETO:389
+
+openldap
+http://ip_maquina:389
+
+phpldapadmin
+http://ip_maquina:81
